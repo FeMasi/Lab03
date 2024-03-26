@@ -8,7 +8,8 @@ class MultiDictionary:
        pass
 
     def printDic(self, language):
-        pass
+        str = "C:/Users/Masif/PycharmProjects/Lab03/resources/" + language + ".txt"
+        self.dc = d.Dictionary(str)
 
     def searchWord(self, words, language):
         pass
